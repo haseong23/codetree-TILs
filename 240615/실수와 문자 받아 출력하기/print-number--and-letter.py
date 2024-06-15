@@ -2,4 +2,4 @@ a = input()
 b = float(input())
 c = float(input())
 
-print(a, round(b, 2), round(c, 2), sep = '\n')
+print(a, f"{round(b, 2):.2f}", f"{round(c, 2):.2f}", sep = '\n')
