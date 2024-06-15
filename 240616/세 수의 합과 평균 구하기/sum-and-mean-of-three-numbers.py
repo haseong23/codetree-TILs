@@ -1,2 +1,2 @@
 a, b, c = map(int, input().split())
-print(a+b+c, f"{((a+b+c)/3):.0f}", sep='\n')
+print(a+b+c, (a+b+c)//3, sep='\n')
