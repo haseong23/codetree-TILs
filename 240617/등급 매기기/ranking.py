@@ -2,7 +2,7 @@ score = int(input())
 
 if score >= 90:
     print("A")
-elif socre >= 80:
+elif score >= 80:
     print("B")
 elif score >= 70:
     print("C")
