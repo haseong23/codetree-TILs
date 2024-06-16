@@ -6,3 +6,5 @@ elif idx == 2:
     print("Tom")
 elif idx == 3:
     print("Paul")
+else:
+    print("Vacancy")
