@@ -1,3 +1,8 @@
-names = ['John', 'Tom', 'Paul']
 idx = int(input())
-print(names[idx-1])
+
+if idx == 1:
+    print("John")
+elif idx == 2:
+    print("Tom")
+elif idx == 3:
+    print("Paul")
