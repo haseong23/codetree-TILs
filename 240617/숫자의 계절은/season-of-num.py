@@ -6,5 +6,5 @@ elif 6 <= m and m <= 8:
     print("Summer")
 elif 9 <= m and m <= 11:
     print("Fall")
-elif 12 <= m and m <= 2:
+else:
     print("Winter")
