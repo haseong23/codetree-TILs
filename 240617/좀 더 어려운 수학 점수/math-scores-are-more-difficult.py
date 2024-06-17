@@ -1,11 +1,7 @@
 a_math, a_eng = map(int, input().split())
 b_math, b_eng = map(int, input().split())
 
-if b_math > a_math:
-    print("B")
-elif a_math > b_math:
+if a_math > b_math or (a_math == b_math and a_eng > b_eng):
     print("A")
-elif b_eng > a_eng:
+else:
     print("B")
-elif a_eng > b_eng:
-    print("A")
