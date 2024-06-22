@@ -1,4 +1,4 @@
 s = input()
 
-for i in range(8):
+for _ in range(8):
     print(s, end="")
