@@ -10,6 +10,6 @@ for i in range(1, n+1):
             check += 1
     
     if check > 0:
-        print("0")
+        print("0", end=" ")
     else:
         print(i, end=" ")
