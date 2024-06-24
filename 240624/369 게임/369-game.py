@@ -6,5 +6,6 @@ for i in range(1, n+1):
     for j in range(l):
         if i[j] == "3" or i[j] == "6" or i[j] == "9":
             print("0", end=" ")
+            break
         else:
             print(i, end=" ")
