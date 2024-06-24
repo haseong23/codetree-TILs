@@ -8,7 +8,7 @@ for _ in range(n, 101):
     elif n >= 70:
         print("C", end=" ")
     elif n >= 60:
-        print("C", end=" ")
+        print("D", end=" ")
     else:
         print("F", end=" ")
     n += 1
