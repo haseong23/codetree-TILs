@@ -1,8 +1,8 @@
 n = int(input())
-sum = 0
+sum_val = 0
 
 for i in range(1, 101):
-    sum += i
-    if sum >= n:
+    sum_val += i
+    if sum_val >= n:
         print(i)
         break
