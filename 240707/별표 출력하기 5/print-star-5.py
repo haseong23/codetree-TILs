@@ -4,5 +4,7 @@ n = int(input())
 for i in range(n):
     # 별찍기를 위한 for
     for _ in range(n-i):
-        print("*"*(n-i), end=" ")
-    print("")
+        for _ in range(n-i):
+            print("*", end="")
+        print(" ", end="")
+    print()
