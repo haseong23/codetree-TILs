@@ -1,10 +1,12 @@
+# 변수 선언 및 입력
 n = int(input())
-num_arr = [2, 4, 6, 8]
-cnt = 0
-
-for i in range(n):
-    row = []
-    for j in range(n):
-        row.append(num_arr[cnt % 4])
-        cnt += 1
-    print(" ".join(map(str, row)))
+cnt = 2
+	
+# cnt를 이용해 n칸의 정사각형에 올바른 숫자를 출력합니다.
+for _ in range(n):
+	for _ in range(n):
+		print(cnt, end=" ")
+		cnt += 2
+		if cnt == 10:
+			cnt = 2
+	print()
